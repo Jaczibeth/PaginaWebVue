@@ -1,4 +1,5 @@
 <script>
+
 </script>
 <template>
     <nav class="navbar navbar-expand-lg custom-bg" data-bs-theme="dark">
