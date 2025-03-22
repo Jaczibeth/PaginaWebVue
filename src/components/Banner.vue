@@ -1,4 +1,14 @@
-<script setup>
+<script >
+import cafe from "C:/Users/jaczi/Documents/PaginaWebJaczibeth/src/assets/IMG/CafeTradicional.jpg"
+
+
+export default{
+    data() {
+        return{
+            cafe
+        }
+    }
+};
 
 </script>
 
@@ -18,7 +28,7 @@
             <button class="btn btn-outline-light">Contacto</button>
         </div>
         <div class="col-md-6 text-center">
-            <img src="" class="img-cafe" alt="Taza de café">
+            <img :src="cafe" class="img-cafe" alt="Taza de café">
         </div>
     </div>
 </template>

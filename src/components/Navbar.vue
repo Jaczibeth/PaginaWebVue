@@ -1,11 +1,19 @@
 <script>
+import Logo from "C:/Users/jaczi/Documents/PaginaWebJaczibeth/src/assets/IMG/Logo.png"
 
+export default{
+    data() {
+        return {
+            Logo
+        }
+    }
+};
 </script>
 <template>
     <nav class="navbar navbar-expand-lg custom-bg" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img width="180" height="70" src="" alt="">
+                <img width="180" height="70" :src="Logo" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
