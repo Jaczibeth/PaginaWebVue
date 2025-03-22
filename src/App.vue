@@ -1,12 +1,20 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue';
+import Banner from './components/Banner.vue';
+import Carrusel from './components/Carrusel.vue';
+import Formulario from './components/Formulario.vue';
+import Contactos from './components/contactos.vue';
 </script>
 
 <template>
- 
-  <HelloWorld msg="Vite + Vue" />
-</template>
+   <div>
+    <Navbar />
+    <Banner />
+    <Carrusel />
+    <Formulario />
+    <Contactos /> 
+  </div>
 
-<style scoped>
+ </template>
 
-</style>
+<style scoped> </style>
